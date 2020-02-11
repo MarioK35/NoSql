@@ -44,7 +44,7 @@ namespace BooksApi
              #region Swagger
             services.AddSwaggerGen(c =>
             {
-                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mi API", Version = "v0.1" });
+                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NoSQL API", Version = "v0.1" });
                  c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                     { 
                     In = ParameterLocation.Header, 
@@ -86,7 +86,7 @@ namespace BooksApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
             #endregion
-            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
