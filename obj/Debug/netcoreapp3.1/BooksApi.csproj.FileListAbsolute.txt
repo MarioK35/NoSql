@@ -23,3 +23,14 @@ C:\Users\mario\NoSql\BooksApi\obj\Debug\netcoreapp3.1\BooksApi.RazorTargetAssemb
 C:\Users\mario\NoSql\BooksApi\obj\Debug\netcoreapp3.1\BooksApi.csproj.CopyComplete
 C:\Users\mario\NoSql\BooksApi\obj\Debug\netcoreapp3.1\BooksApi.dll
 C:\Users\mario\NoSql\BooksApi\obj\Debug\netcoreapp3.1\BooksApi.pdb
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mario\NoSql\BooksApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mario\NoSql\BooksApi\obj\Debug\netcoreapp3.1\BooksApi.MvcApplicationPartsAssemblyInfo.cs
