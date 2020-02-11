@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using BooksApi.Models;
+using Microsoft.Extensions.Options;
+using BooksApi.Services;
 
 namespace BooksApi
 {
@@ -25,6 +28,15 @@ namespace BooksApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.Configure<BookstoreDatabaseSettings>(
+        Configuration.GetSection(nameof(BookstoreDatabaseSettings)));
+
+    services.AddSingleton<IBookstoreDatabaseSettings>(sp =>
+        sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
+
+            services.AddSingleton<BookService>();
+            
             services.AddControllers();
         }
 
